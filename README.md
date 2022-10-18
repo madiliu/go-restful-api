@@ -66,7 +66,7 @@ curl http://localhost:8080/user
 ##### 404 Not Found
 ```json
 {
-  "message": "Users information unavailable"
+   "message": "Users information unavailable"
 }
 ```
 #### 500 Internal Server Error
@@ -96,16 +96,16 @@ curl http://localhost:8080/user
 ##### 400 Bad Request
 ```json
 {
-  "error": "strconv.ParseInt: parsing \"1jdw\": invalid syntax",
-  "message": "Please provide id in the correct format"
+    "error": "strconv.ParseInt: parsing \"1jdw\": invalid syntax",
+    "message": "Please provide id in the correct format"
 }
 ```
 
 ##### 404 Not Found
 ```json
 {
-  "error": "sql: no rows in result set",
-  "message": "The inputted id does not exist"
+    "error": "sql: no rows in result set",
+   "message": "The inputted id does not exist"
 }
 ```
 
@@ -113,8 +113,8 @@ curl http://localhost:8080/user
 #### 500 Internal Server Error
 ```json
 {
-  "error": "xxxx",
-  "message": "Please contact Madelain for further assistance"
+    "error": "xxxx",
+    "message": "Please contact Madelain for further assistance"
 }
 ```
 
@@ -132,15 +132,15 @@ curl http://localhost:8080/user
 ##### 200 OK
 ```json
 {
-  "user_id": 6,
-  "name": "korra"
+    "user_id": 6,
+   "name": "korra"
 }
 ```
 ##### 400 Bad Request
 ```json
 {
-  "error": "Key: 'apiUser.Name' Error:Field validation for 'Name' failed on the 'max' tag",
-  "message": "Please provide name within 20 alphabetical characters"
+    "error": "Key: 'apiUser.Name' Error:Field validation for 'Name' failed on the 'max' tag",
+    "message": "Please provide name within 20 alphabetical characters"
 }
 ```
 ##### 500 Internal Server Error
@@ -163,8 +163,8 @@ curl http://localhost:8080/user
 ##### 200 OK
 ```json
 {
-  "user_id": 5,
-  "name": "sokka"
+    "user_id": 5,
+    "name": "sokka"
 }
 ```
 #### 400 Bad Request
@@ -177,15 +177,15 @@ curl http://localhost:8080/user
 ##### 404 Not Found
 ```json
 {
-  "error": "sql: no rows in result set",
-  "message": "The inputted id does not exist"
+    "error": "sql: no rows in result set",
+    "message": "The inputted id does not exist"
 }
 ```
 #### 500 Internal Server Error
 ```json
 {
-  "error": "xxxx",
-  "message": "Please contact Madelain for further assistance"
+    "error": "xxxx",
+    "message": "Please contact Madelain for further assistance"
 }
 ```
 
@@ -207,8 +207,8 @@ curl http://localhost:8080/user
 ##### 400 Bad Request
 ```json
 {
-  "error": "strconv.ParseInt: parsing \"dwdwdw\": invalid syntax",
-  "message": "Please provide id in the correct format"
+    "error": "strconv.ParseInt: parsing \"dwdwdw\": invalid syntax",
+    "message": "Please provide id in the correct format"
 }
 ```
 ##### 404 Not Found
@@ -221,8 +221,8 @@ curl http://localhost:8080/user
 #### 500 Internal Server Error
 ```json
 {
-  "error": "xxxx",
-  "message": "Please contact Madelain for further assistance"
+    "error": "xxxx",
+    "message": "Please contact Madelain for further assistance"
 }
 ```
 
