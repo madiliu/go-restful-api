@@ -46,6 +46,12 @@ $ curl http://localhost:8080/user
 ```
 
 ## 🗂 API Documentation
+1. [`GET: /user`]()
+2. [`GET: /user/:user_id`]()
+3. [`POST: /user`]()
+4. [`PUT: /user/:user_id`]()
+5. [`DELETE: /user/:user_id`]()
+
 ### 1. `GET: /user`
 * Description: obtain the user list
 * Parameters: none
