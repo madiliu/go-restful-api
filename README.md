@@ -45,8 +45,7 @@ $ curl http://localhost:8080/user
 ```
 
 ## 🗂 API Documentation
-### 1. Get User List
-#### `GET: /user`
+### 1. Get User List: `GET: /user`
 * Description: obtain the user list
 * Parameters: none
 * Response Body
@@ -89,8 +88,7 @@ $ curl http://localhost:8080/user
   }
   ```
 
-### 2. Get User
-#### `POST: /user/:user_id`
+### 2. Get User: `GET: /user/:user_id`
 * Description: query the user information by inputting id
 * Parameters: 
 
@@ -128,8 +126,7 @@ $ curl http://localhost:8080/user
   }
   ```
 
-### 3. Create User
-#### `POST: /user`
+### 3. Create User: `POST: /user`
 * Description: create single user information and return the inserted data
 * Parameters
   | No  | Param | Description | Data Type | Required      | Example |
@@ -158,8 +155,7 @@ $ curl http://localhost:8080/user
   }
   ```
 
-### 4. Update User
-#### `PUT: /user/:user_id`
+### 4. Update User: `PUT: /user/:user_id`
 * Description: update single user information and return the updated data
 * Parameters
   | No  | Param | Description | Data Type | Required | Example |
@@ -197,8 +193,7 @@ $ curl http://localhost:8080/user
   }
   ```
 
-### 5. Delete
-#### `DELETE: /user/:user_id`
+### 5. Delete: `DELETE: /user/:user_id`
 * Description: delete single user information by providing user id
 * Parameters
   | No  | Param   | Description | Data Type | Required    | Example |
