@@ -19,7 +19,7 @@ RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker<br>
 * API documentation (README)
 * Unit tests with httptest and testify
 * Logrus to record API results
-* Utilize docker compose for two services: server and database
+* Utilize docker compose for two services
 
 ## 🚀 Installation and Execution
 ### 1. clone this repo
