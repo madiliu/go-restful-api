@@ -8,8 +8,9 @@
 
 ## How to use this
 ### 1. clone this repo
-```
-
+```shell
+git clone https://github.com/Larry850806/simple-express-server
+cd user-assignment
 ```
 ### 2. docker compose
 ### 3. run the server on port 8080
