@@ -1,5 +1,5 @@
 # user_assignment
-* RESTful APIs built with Go Gin, Postgresql, and Docker
+RESTful APIs built with Go Gin, PostgreSQL, and Docker
 
 ### Environment
 * Go 1.17
