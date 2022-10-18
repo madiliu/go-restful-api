@@ -17,7 +17,7 @@ RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker<br>
 * Use relational database for storage
 * Use JSON format for communication
 * API documentation (README)
-* Unit tests with httptest
+* Unit tests with httptest and testify
 * Logrus to record API results
 
 ## 🚀 Installation and Execution
