@@ -1,20 +1,21 @@
 <div><img src ="https://user-images.githubusercontent.com/90917906/196348724-a25be68c-2444-4399-b8f9-096df309b996.png"></div>
 
 # Go RESTful APIs
-RESTful APIs built with Go Gin, PostgreSQL, and Docker 🐳
+RESTful APIs built with Go Gin, PostgreSQL, and Docker 🐳 <br>
+ [Installation and Execution](https://github.com/madiliu/user-assignment/edit/main/README.md#-installation-and-execution) | [API Documentation](https://github.com/madiliu/user-assignment/edit/main/README.md#-api-documentation)
 
-## 🚀 Environment
+## 🗂  Environment
 * Go 1.17
 * Go Gin 1.8.1
 * Postgresql 14.5
 * Docker 20.10.12
 
-## 🚀 Features
+## 🗂  Features
 * RESTful APIs to get, list, create, update, and delete user
 * httptest to do the test
 * logger to record the API execution result
 
-## 🚀 Installation and execution
+## 🚀 Installation and Execution
 ### 1. clone this repo
 ```
 $ git clone https://github.com/madiliu/user-assignment.git
@@ -40,7 +41,7 @@ $ curl http://localhost:8080/user
 ```
 
 ## 🚀 API Documentation
-### [1] Get User List
+### 1. Get User List
 #### `GET: /user`
 #### Description: obtain the user list
 #### Parameters: none
@@ -48,43 +49,43 @@ $ curl http://localhost:8080/user
 ##### 200 OK
 ```json
 [
-  {
-    "ID": 1,
-    "Name": "peter"
-  },
-  {
-    "ID": 2,
-    "Name": "amy"
-  },
-  {
-    "ID": 3,
-    "Name": "bob"
-  },
-  {
-    "ID": 4,
-    "Name": "catherine"
-  },
-  {
-    "ID": 5,
-    "Name": "david"
-  }
+    {
+        "ID": 1,
+        "Name": "peter"
+    },
+    {
+        "ID": 2,
+        "Name": "amy"
+    },
+    {
+        "ID": 3,
+        "Name": "bob"
+    },
+    {
+        "ID": 4,
+        "Name": "catherine"
+    },
+    {
+        "ID": 5,
+        "Name": "david"
+    }
 ]
 ```
 ##### 404 Not Found
 ```json
 {
-   "message": "Users information unavailable"
+    "message": "Users information unavailable"
 }
 ```
 #### 500 Internal Server Error
 ```json
 {
-  "error": "xxxx",
-  "message": "Please contact Madelain for further assistance"
+    "error": "xxxx",
+    "message": "Please contact Madelain for further assistance"
 }
 ```
 
-### [2] Get User
+### 2. Get User
 #### `POST: /user/:user_id`
 #### Description: query the user information by inputting id
 #### Parameters: 
@@ -107,7 +108,6 @@ $ curl http://localhost:8080/user
     "message": "Please provide id in the correct format"
 }
 ```
-
 ##### 404 Not Found
 ```json
 {
@@ -115,8 +115,6 @@ $ curl http://localhost:8080/user
    "message": "The inputted id does not exist"
 }
 ```
-
-
 #### 500 Internal Server Error
 ```json
 {
@@ -125,9 +123,7 @@ $ curl http://localhost:8080/user
 }
 ```
 
-
-
-### [3] Create User
+### 3. Create User
 #### `POST: /user`
 #### Description: create single user information and return the inserted data
 #### Parameters
@@ -157,7 +153,7 @@ $ curl http://localhost:8080/user
 }
 ```
 
-### [4] Update User
+### 4. Update User
 #### `PUT: /user/:user_id`
 #### Description: update single user information and return the updated data
 #### Parameters
@@ -196,7 +192,7 @@ $ curl http://localhost:8080/user
 }
 ```
 
-### [5] Delete
+### 5. Delete
 #### `DELETE: /user/:user_id`
 #### Description: delete single user information by providing user id
 #### Parameters
