@@ -1,15 +1,18 @@
 # user_assignment
 RESTful APIs built with Go Gin, PostgreSQL, and Docker
 
-### Environment
+## Environment
 * Go 1.17
 * Go Gin 1.8.1
 * Postgresql 14.5
 * Docker 20.10.12
 
+## Features
+* RESTful API
+
 ## How to use this
 ### 1. clone this repo
-```shell
+```
 git clone https://github.com/madiliu/user-assignment.git
 cd user-assignment
 ```
@@ -20,12 +23,12 @@ POSTGRES_DB={your_db}
 POSTGRES_PASSWORD={your_password}
 ```
 ### 3. build docker compose
-```shell
-docker compose build
+```
+docker-compose build
 ```
 ### 4. run docker compose
-```shell
-docker compose up
+```
+docker-compose up
 ```
 ### 5. check server is running
 ```
