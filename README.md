@@ -90,7 +90,7 @@ $ curl http://localhost:8080/user
 
 ### 2. Get User: `GET: /user/:user_id`
 * Description: query the user information by inputting id
-* Parameters: 
+* Parameters 
 
   | No  | Param   | Description | Data Type | Required  | Example |
   |---- |---------|----------|-----------|----------  |---------|
