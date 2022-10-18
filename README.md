@@ -1,5 +1,6 @@
 # user_assignment
-* A simple RESTful API assigment base on Go Gin, Postgresql, and Docker
+* A simple RESTful API assigment built with Go Gin, Postgresql, and Docker
+
 ### Environment
 * Go 1.17
 * Go Gin 1.8.1
@@ -9,13 +10,27 @@
 ## How to use this
 ### 1. clone this repo
 ```shell
-git clone https://github.com/Larry850806/simple-express-server
+git clone https://github.com/madiliu/user-assignment.git
 cd user-assignment
 ```
-### 2. docker compose
-### 3. run the server on port 8080
-### 4. check server is running
-
+### 2. replace the environment variables in config.env with yours
+```
+POSTGRES_USER={your_user}
+POSTGRES_DB={your_db}
+POSTGRES_PASSWORD={your_password}
+```
+### 3. build docker compose
+```shell
+docker compose build
+```
+### 4. run docker compose
+```shell
+docker compose up
+```
+### 5. check server is running
+```
+curl http://localhost:8080/user
+```
 
 ## API Document
 ### [1] Get User List
