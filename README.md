@@ -1,19 +1,23 @@
 <div><img src ="https://user-images.githubusercontent.com/90917906/196348724-a25be68c-2444-4399-b8f9-096df309b996.png"></div>
 
 # Go RESTful APIs
-RESTful APIs built with Go Gin, PostgreSQL, and Docker 🐳 <br>
- [Installation and Execution](https://github.com/madiliu/user-assignment/edit/main/README.md#-installation-and-execution) | [API Documentation](https://github.com/madiliu/user-assignment/edit/main/README.md#-api-documentation)
+RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker 🐳 <br>
+ [Installation and Execution](https://github.com/madiliu/user-assignment/edit/main/README.md#-installation-and-execution) 
+ |  [API Documentation](https://github.com/madiliu/user-assignment/edit/main/README.md#-api-documentation)
 
-## 🗂  Environment
+## 🔥 Stacks
 * Go 1.17
 * Go Gin 1.8.1
 * Postgresql 14.5
 * Docker 20.10.12
 
-## 🗂  Features
-* RESTful APIs to get, list, create, update, and delete user
-* httptest to do the test
-* logger to record the API execution result
+## ⭐ Features
+* Restful APIs to read/write
+* Use database for storage
+* Use JSON format for communication
+* API documentation (README)
+* Unit tests with httptest
+* Logrus to record API execution result
 
 ## 🚀 Installation and Execution
 ### 1. clone this repo
@@ -40,7 +44,7 @@ $ docker-compose up
 $ curl http://localhost:8080/user
 ```
 
-## 🚀 API Documentation
+## 🗂 API Documentation
 ### 1. Get User List
 #### `GET: /user`
 #### Description: obtain the user list
