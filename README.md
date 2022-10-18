@@ -25,17 +25,17 @@ RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker 🐳 <br>
 $ git clone https://github.com/madiliu/user-assignment.git
 $ cd user-assignment
 ```
-### 2. replace the environment variables in config.env with yours
+### 2. replace environment variables in config.env with yours
 ```
 POSTGRES_USER={your_user}
 POSTGRES_DB={your_db}
 POSTGRES_PASSWORD={your_password}
 ```
-### 3. build docker compose
+### 3. build docker-compose
 ```
 $ docker-compose build
 ```
-### 4. run docker compose
+### 4. run docker-compose
 ```
 $ docker-compose up
 ```
