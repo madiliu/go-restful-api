@@ -13,11 +13,11 @@ RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker<br>
 
 ## ⭐ Features
 * Restful APIs to read/write
-* Use database for storage
+* Use relational database for storage
 * Use JSON format for communication
 * API documentation (README)
 * Unit tests with httptest
-* Logrus to record API execution result
+* Logrus to record API results
 
 ## 🚀 Installation and Execution
 ### 1. clone this repo
