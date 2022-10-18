@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+  server:
+    container_name: golang
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /server
+    volumes:
+      - .:/server
+    ports:
+      - "8080:8080"
+    depends_on:
+      - database
+    entrypoint: go run main.go
+    restart: on-failure
+    networks:
+      - net
+
+  database:
+    container_name: postgres
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    restart: on-failure
+    env_file:
+      - config.env
+    environment:
+      - POSTGRES_HOST:${POSTGRES_HOST}
+      - POSTGRES_USER:${POSTGRES_USER}
+      - POSTGRES_PORT:${POSTGRES_PORT}
+      - POSTGRES_DB:${POSTGRES_DB}
+      - POSTGRES_PASSWORD:${POSTGRES_PASSWORD}
+      - GOLANG_POSTGRES_HOST:${GOLANG_POSTGRES_HOST}
+    networks:
+      - net
+    volumes:
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - pg_data:/var/lib/postgresql/data
+
+networks:
+  net:
+    driver: bridge
+
+volumes:
+  pg_data:
+    driver: local
+
+

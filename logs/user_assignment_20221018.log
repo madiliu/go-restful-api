@@ -1,0 +1,7 @@
+{"client_ip":"172.29.0.1","latency_time":14255800,"level":"info","msg":"","req_method":"GET","req_uri":"/user","status_code":200,"time":"2022-10-18 03:47:42"}
+{"client_ip":"172.29.0.1","latency_time":85126800,"level":"info","msg":"","req_method":"GET","req_uri":"/user/1","status_code":200,"time":"2022-10-18 04:11:09"}
+{"client_ip":"172.29.0.1","latency_time":1025300,"level":"info","msg":"","req_method":"GET","req_uri":"/user/1dw","status_code":400,"time":"2022-10-18 04:11:14"}
+{"client_ip":"172.29.0.1","latency_time":26372600,"level":"info","msg":"","req_method":"POST","req_uri":"/user","status_code":201,"time":"2022-10-18 04:11:18"}
+{"client_ip":"172.29.0.1","latency_time":1925200,"level":"info","msg":"","req_method":"PUT","req_uri":"/user/5","status_code":400,"time":"2022-10-18 04:11:22"}
+{"client_ip":"172.29.0.1","latency_time":49900,"level":"info","msg":"","req_method":"DELETE","req_uri":"/user/dwdwdw","status_code":400,"time":"2022-10-18 04:11:25"}
+{"client_ip":"172.29.0.1","latency_time":8249400,"level":"info","msg":"","req_method":"DELETE","req_uri":"/user/6","status_code":200,"time":"2022-10-18 04:11:30"}
