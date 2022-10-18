@@ -6,11 +6,17 @@
 * Postgresql 14.5
 * Docker 20.10.12
 
-# Reference
-https://stackoverflow.com/questions/71055589/building-a-docker-image-to-run-go-applications
+## How to use this
+### 1. clone this repo
+```
+
+```
+### 2. docker compose
+### 3. run the server on port 8080
+### 4. check server is running
 
 
-## API
+## API Document
 ### [1] Get User List
 #### `GET: /user`
 #### Description: obtain the user list
