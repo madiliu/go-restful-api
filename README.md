@@ -1,20 +1,24 @@
-# user_assignment
-RESTful APIs built with Go Gin, PostgreSQL, and Docker
+<div><img src ="https://user-images.githubusercontent.com/90917906/196348724-a25be68c-2444-4399-b8f9-096df309b996.png"></div>
 
-## Environment
+# Go RESTful APIs
+RESTful APIs built with Go Gin, PostgreSQL, and Docker 🐳
+
+## 🚀 Environment
 * Go 1.17
 * Go Gin 1.8.1
 * Postgresql 14.5
 * Docker 20.10.12
 
-## Features
-* RESTful API
+## 🚀 Features
+* RESTful APIs to get, list, create, update, and delete user
+* httptest to do the test
+* logger to record the API execution result
 
-## How to use this
+## 🚀 Installation and execution
 ### 1. clone this repo
 ```
-git clone https://github.com/madiliu/user-assignment.git
-cd user-assignment
+$ git clone https://github.com/madiliu/user-assignment.git
+$ cd user-assignment
 ```
 ### 2. replace the environment variables in config.env with yours
 ```
@@ -24,18 +28,18 @@ POSTGRES_PASSWORD={your_password}
 ```
 ### 3. build docker compose
 ```
-docker-compose build
+$ docker-compose build
 ```
 ### 4. run docker compose
 ```
-docker-compose up
+$ docker-compose up
 ```
 ### 5. check server is running
 ```
-curl http://localhost:8080/user
+$ curl http://localhost:8080/user
 ```
 
-## API Document
+## 🚀 API Documentation
 ### [1] Get User List
 #### `GET: /user`
 #### Description: obtain the user list
