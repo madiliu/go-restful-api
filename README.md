@@ -1,7 +1,7 @@
 <div><img src ="https://user-images.githubusercontent.com/90917906/196348724-a25be68c-2444-4399-b8f9-096df309b996.png"></div>
 
 # Go RESTful APIs
-RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker 🐳 <br>
+RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker<br>
  [Installation and Execution](https://github.com/madiliu/user-assignment/edit/main/README.md#-installation-and-execution) 
  |  [API Documentation](https://github.com/madiliu/user-assignment/edit/main/README.md#-api-documentation)
 
