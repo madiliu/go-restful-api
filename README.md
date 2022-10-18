@@ -116,7 +116,7 @@ $ curl http://localhost:8080/user
 ```json
 {
     "error": "sql: no rows in result set",
-   "message": "The inputted id does not exist"
+    "message": "The inputted id does not exist"
 }
 ```
 #### 500 Internal Server Error
@@ -140,7 +140,7 @@ $ curl http://localhost:8080/user
 ```json
 {
     "user_id": 6,
-   "name": "korra"
+    "name": "korra"
 }
 ```
 ##### 400 Bad Request
