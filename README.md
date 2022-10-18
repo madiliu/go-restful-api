@@ -2,8 +2,9 @@
 
 # Go RESTful APIs
 RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker<br>
- [Installation and Execution](https://github.com/madiliu/user-assignment/edit/main/README.md#-installation-and-execution) 
- |  [API Documentation](https://github.com/madiliu/user-assignment/edit/main/README.md#-api-documentation)
+ [Installation and Execution](https://github.com/madiliu/go-restful-api/blob/main/README.md#-installation-and-execution) 
+ |  [API Documentation](https://github.com/madiliu/go-restful-api/blob/main/README.md#-api-documentation)
+
 
 ## 🔥 Stacks
 * Go 1.17
