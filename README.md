@@ -46,11 +46,11 @@ $ curl http://localhost:8080/user
 ```
 
 ## 🗂 API Documentation
-1. [`GET: /user`]()
-2. [`GET: /user/:user_id`]()
-3. [`POST: /user`]()
-4. [`PUT: /user/:user_id`]()
-5. [`DELETE: /user/:user_id`]()
+1. [`GET: /user`](https://github.com/madiliu/go-restful-api/blob/main/README.md#1-get-user)
+2. [`GET: /user/:user_id`](https://github.com/madiliu/go-restful-api/blob/main/README.md#2-get-useruser_id)
+3. [`POST: /user`](https://github.com/madiliu/go-restful-api/blob/main/README.md#3-post-user)
+4. [`PUT: /user/:user_id`](https://github.com/madiliu/go-restful-api/blob/main/README.md#4-put-useruser_id)
+5. [`DELETE: /user/:user_id`](https://github.com/madiliu/go-restful-api/blob/main/README.md#5-delete-useruser_id)
 
 ### 1. `GET: /user`
 * Description: obtain the user list
