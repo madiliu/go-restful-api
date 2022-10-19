@@ -5,14 +5,13 @@ RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker<br>
  [Installation and Execution](https://github.com/madiliu/go-restful-api/blob/main/README.md#-installation-and-execution) 
  |  [API Documentation](https://github.com/madiliu/go-restful-api/blob/main/README.md#-api-documentation)
 
-
-## 🔥 Stacks
+##  Stacks
 * Go 1.17
 * Go Gin 1.8.1
 * Postgresql 14.5
 * Docker 20.10.12
 
-## ⭐ Features
+##  Features
 * Restful APIs to read/write
 * Use relational database for storage
 * Use JSON format for communication
@@ -21,7 +20,7 @@ RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker<br>
 * Logrus to record API results
 * Utilize docker compose for two services
 
-## 🚀 Installation and Execution
+##  Installation and Execution
 ### 1. clone this repo
 ```
 $ git clone https://github.com/madiliu/user-assignment.git
@@ -46,7 +45,7 @@ $ docker-compose up
 $ curl http://localhost:8080/user
 ```
 
-## 🗂 API Documentation
+## API Documentation
 1. [`GET: /user`](https://github.com/madiliu/go-restful-api/blob/main/README.md#1-get-user)
 2. [`GET: /user/:user_id`](https://github.com/madiliu/go-restful-api/blob/main/README.md#2-get-useruser_id)
 3. [`POST: /user`](https://github.com/madiliu/go-restful-api/blob/main/README.md#3-post-user)
