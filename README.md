@@ -167,7 +167,7 @@ $ curl http://localhost:8080/user
 * Parameters
   | No  | Param | Description | Data Type | Required | Example |
   |---- |-------|--------|-----------|----------|---------|
-  | 1   | id    | 流水號    | int32     | Y        | 5       |
+  | 1   | user_id    | 流水號    | int32     | Y        | 5       |
   | 2   | name  | 名稱     | string    | Y        | sokka   |
 
 * Response Body
