@@ -8,7 +8,7 @@ RESTful APIs built with Gin-Gonic, PostgreSQL, and Docker<br>
 ##  Stacks
 * Go 1.17
 * Go Gin 1.8.1
-* Postgresql 14.5
+* PostgreSQL 14.5
 * Docker 20.10.12
 
 ##  Features
